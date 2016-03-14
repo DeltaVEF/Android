@@ -1,8 +1,9 @@
 <resources>
     <style name="Theme.VEF" parent="Theme.AppCompat.NoActionBar">
         <item name="windowActionModeOverlay">true</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/palette_background</item>
+        <item name="colorPrimary">@color/palette_primary</item>
+        <item name="colorPrimaryDark">@color/palette_primary_dark</item>
+        <item name="colorAccent">@color/palette_accent</item>
     </style>
 </resources>
