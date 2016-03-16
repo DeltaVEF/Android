@@ -1,5 +1,8 @@
 <resources>
-    <style name="Theme.VEF" parent="Theme.AppCompat.NoActionBar">
+    <style name="Base.Theme.VEF" parent="Theme.AppCompat.NoActionBar">
+
+    </style>
+    <style name="Theme.VEF" parent="Base.Theme.VEF">
         <item name="windowActionModeOverlay">true</item>
         <item name="android:windowBackground">@color/palette_background</item>
         <item name="colorPrimary">@color/palette_primary</item>

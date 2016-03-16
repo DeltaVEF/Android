@@ -30,7 +30,10 @@ public class RoomSelectionActivity extends AppCompatActivity {
                             startActivity(new Intent(RoomSelectionActivity.this,
                                     RoomMarkActivity.class));
                         }
-                        overridePendingTransition(0, 0);
+                        overridePendingTransition(
+                                R.anim.trans_in_from_right,
+                                R.anim.trans_out_to_left
+                        );
                     } else {
                         Toast.makeText(
                                 RoomSelectionActivity.this,
